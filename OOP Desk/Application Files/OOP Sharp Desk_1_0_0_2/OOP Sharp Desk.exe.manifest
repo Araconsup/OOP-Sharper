@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OOP Sharp Desk.exe" version="1.0.0.2" publicKeyToken="7e1afacb201bc39c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="download.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OOP Sharp Desk" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OOP Sharp Desk.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OOP Sharp Desk.exe" size="754584">
+      <assemblyIdentity name="OOP Sharp Desk" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>W8O9yJURMILWFFRO5TNrsWCJrxk042xVnEd4HKM7AXw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="download.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jHmFWtYmN2ah/mvLqcyVI1WzkCJPKvYIVxKBwWBrajY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OOP Sharp Desk.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ALI\alire" issuerKeyHash="fa83e85b104e8617b6577fe0d04c89280dab44b2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8ojI9lyztIo8neYdOWQEVpaQ59ErQXbu4G4lrcgm8Ws=</DigestValue></Reference></SignedInfo><SignatureValue>fZxj21jnk53D7c1VVeyatepfeiP6FELhEEQyyJb6zuEg+zdo377IMZxD7uS+rCI5js+tuzshKQh0a/TEhe/K//3OzV+DjTzQhUE+bHEng8n5WpA7mqCeFyof5AhT8yz93aIQ22TL0CghTWbFI2fe/+rGl5wXDa6zSb2Eq14ogIU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>04CTPAsVfS7DugRZkuEjgGTmfG7cAd4FVRKHfoRGfaK49S6s2M61AlSuH+JmixS8glPAUfUBbIbTp/jYUO6sa2JAaK4SoL4sqG/taJ1Ft0m/YpS2K0o1C1QEGTx3geuR5JeywgPLlih+JAhZRcH7IBUcgn6WOeqJZxXtXmBRhy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6bf126c8ad256ee0ee76412bd1e79096560464391de69d3c8ab4b35cf6c888f2" Description="" Url=""><as:assemblyIdentity name="OOP Sharp Desk.exe" version="1.0.0.2" publicKeyToken="7e1afacb201bc39c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALI\alire</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8nLHv5CJTA+rhV0u0yY4McztcmI+d3zQThp2bA5op1E=</DigestValue></Reference></SignedInfo><SignatureValue>0oRFASJ1+TWRv2bKKDLWKHITztUbBJHflpEN+eViMjnPXdWLbiNL8Qy2nbqFFvvm286A0foSuwiDDysHdIcNEqqvH2yyZaMe258kWQ7U+GpXtBrZuJCNT/GdhKxaugMe+tVDyjRR9cHhuR30NJ4t+k2YjU/FzlnQmG7El17RXFw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>04CTPAsVfS7DugRZkuEjgGTmfG7cAd4FVRKHfoRGfaK49S6s2M61AlSuH+JmixS8glPAUfUBbIbTp/jYUO6sa2JAaK4SoL4sqG/taJ1Ft0m/YpS2K0o1C1QEGTx3geuR5JeywgPLlih+JAhZRcH7IBUcgn6WOeqJZxXtXmBRhy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQVyBlu8lJQ6hByEfbfiTcxTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIAQQBMAEkAXABhAGwAaQByAGUwHhcNMjIwNzE0MjEzNjU4WhcNMjMwNzE1MDMzNjU4WjAdMRswGQYDVQQDHhIAQQBMAEkAXABhAGwAaQByAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANOAkzwLFX0uw7oEWZLhI4Bk5nxu3AHeBVUSh36ERn2iuPUurNjOtQJUrh/iZosUvIJTwFH1AWyG06f42FDurGtiQGiuEqC+LKhv7WidRbdJv2KUtitKNQtUBBk8d4HrkeSXssIDy5YofiQIWUXB+yAVHIJ+ljnqiWcV7V5gUYctAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAB38mLuLOLmGexK7Fw03rL5wbZEM2hhNaJKbLAfEWnC2/J1BaYeIPxhGhGWQ6SQaeHhhL8mfg+UOhRh3bE8uOVIjaKr8TAYa99P00FrpMh90riYVrENZhh5PFnVcebzPwyQrkzKAxNsVMv6CbDvzMEi9Ka1yMRPMGGqqQ+kf5QWE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
